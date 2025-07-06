@@ -25,7 +25,7 @@ The script retrieves five different table revisions (codes `81511-0001` through 
    ```bash
    git clone https://github.com/your-username/extracting-time-series-germany-io-tables.git
    cd extracting-time-series-germany-io-tables
-````
+
 
 2. Install dependencies:
 
@@ -44,8 +44,6 @@ The script retrieves five different table revisions (codes `81511-0001` through 
 
 This repository is released under the MIT License.
 
-```
----
 
 ## Analysis Results
 
