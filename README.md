@@ -1,5 +1,5 @@
 
-# Extracting Time Series of Germany’s Input–Output Tables
+# Extracting & Decomposing Germany’s Input–Output Tables: Technology vs Final Demand
 
 This project provides a lightweight Python script to download, unzip and combine multiple revisions of Germany’s national **Input–Output Tables** from the official **GENESIS Online** database of the German Federal Statistical Office (Destatis).
 
