@@ -1,4 +1,4 @@
-````markdown
+
 # Extracting Time Series of Germany’s Input–Output Tables
 
 This project provides a lightweight Python script to download, unzip and combine multiple revisions of Germany’s national **Input–Output Tables** from the official **GENESIS Online** database of the German Federal Statistical Office (Destatis).
@@ -45,6 +45,31 @@ The script retrieves five different table revisions (codes `81511-0001` through 
 This repository is released under the MIT License.
 
 ```
+---
 
-You can copy this Markdown into your **README.md** on GitHub. Adjust the repository URL and any tokens/credentials instructions as needed.
-```
+## Analysis Results
+
+🔎 **My Analysis of Germany’s Input–Output Tables (Input‑Output‑Tabellen)** reveals where **Technology Changes (Technologieänderungen)** have been strongest and weakest across sectors.
+
+📊 Below is a stacked bar chart showing the decomposition of output change into:
+
+- **Technology Change (Technologieänderung)**
+- **Final Demand Change (Veränderung der Endnachfrage)**
+
+**Top sectors with the highest technology-driven growth (höchste technologiegetriebene Zuwächse):**
+
+1. **Manufacture of Machinery & Equipment (Maschinen‑ und Anlagenbau)**
+2. **Basic Metals & Fabricated Metal Products (Grundmetallerzeugung & Metallverarbeitung)**
+3. **Chemical Products (Chemieindustrie)**
+
+**Sectors with the lowest technology impact (geringste Technologieauswirkung):**  
+- **Agriculture, Forestry & Fishing (Landwirtschaft, Forstwirtschaft & Fischerei)**  
+- **Construction (Bau)**  
+- **Food & Beverages (Lebensmittel & Getränke)**  
+
+This structural decomposition analysis (Strukturelle Zerlegungsanalyse) highlights where innovation is driving Germany’s industrial evolution—and where final‑demand shifts still dominate.
+
+![Decomposition of Output Change](output.png)
+
+*Figure: Decomposition of output change into technology-driven vs. demand-driven components*  
+
