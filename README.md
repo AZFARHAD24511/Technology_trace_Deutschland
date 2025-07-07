@@ -4,7 +4,7 @@
 ## Structural Decomposition
 
 The Structural Decomposition (SD) method was developed over time, starting with Carter (1970), and extended by Blair and Wyckoff (1989), Skolka (1989), Rose and Casler (1996), and Miller and Blair (2009).
-This method allows us to decompose changes in input-output relationships between two time points — for example, $t = 1380$ and $t = 1400$ — into contributions from different sources of change.
+This method allows us to decompose changes in input-output relationships between two time points — for example, $t = 2010$ and $t = 2022$ — into contributions from different sources of change.
 
 The central equation of the input-output model is:
 
