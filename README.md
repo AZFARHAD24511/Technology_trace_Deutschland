@@ -109,26 +109,6 @@ The script retrieves five different table revisions (codes `81511-0001` through 
 - **Source tracking** by adding a `source_table` column  
 - **Easy extension**: just add new table codes to the `TABLE_CODES` list  
 
-## Usage
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/extracting-time-series-germany-io-tables.git
-   cd extracting-time-series-germany-io-tables
-
-
-2. Install dependencies:
-
-   ```bash
-   pip install pandas requests
-   ```
-3. Edit `download_io_tables.py` and set your `API_TOKEN` (replace the placeholder).
-4. Run the script:
-
-   ```bash
-   python download_io_tables.py
-   ```
-5. The combined DataFrame `df_all` will contain all time‑series rows and a `source_table` column.
 
 ## License
 
