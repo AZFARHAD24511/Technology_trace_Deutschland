@@ -157,7 +157,7 @@ This repository is released under the MIT License.
 
 This structural decomposition analysis (Strukturelle Zerlegungsanalyse) highlights where innovation is driving Germany’s industrial evolution—and where final‑demand shifts still dominate.
 
-![Decomposition of Output Change](output.png)
+![Decomposition of Output Change](technology_changes_by_sectors.png)
 
-*Figure: Decomposition of output change into technology-driven vs. demand-driven components*  
+*Figure: Decomposition of output change into technology-driven and demand-driven components from 2010 to 2022*  
 
