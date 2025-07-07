@@ -178,3 +178,9 @@ The table below presents the **Top 10 sectors with the highest positive Technolo
 > ℹ️ These values reflect the net change in technology adoption or impact across sectors, potentially influenced by digitization, automation, and innovation intensity.
 ![Decomposition of Output Change](technology_changes_by_sectors_sorting.png)
 
+### 📁 `IO_TS_DE.py`
+
+This script **only collects time series data from input-output tables**.  
+The **Python code for calculating technology changes** will be shared here **soon**.
+
+
