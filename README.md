@@ -141,3 +141,40 @@ This structural decomposition analysis (Strukturelle Zerlegungsanalyse) highligh
 
 *Figure: Decomposition of output change into technology-driven and demand-driven components from 2010 to 2022*  
 
+## 📊 Technology Change Across Economic Sectors
+
+The table below presents the **Top 10 sectors with the highest positive Technology Change** and the **Bottom 10 sectors with the lowest (or negative) Technology Change**.
+
+### 🔝 Top 10 Sectors by Technology Change
+
+| Sector | Technology Change |
+|--------|-------------------|
+| Computer programming, consultancy, and information services | 80,278.59 |
+| Legal, accounting, and management consultancy services | 41,894.32 |
+| Wholesale trade services (excluding motor vehicles and motorcycles) | 40,126.23 |
+| Investment, security, administrative and support services (n.e.c.) | 35,299.11 |
+| Sewage, waste disposal, and material recovery services | 26,739.35 |
+| Non-ferrous metals and semi-finished products | 19,831.86 |
+| Architectural and engineering services, technical testing | 18,893.84 |
+| Chemicals and chemical products | 18,681.81 |
+| Postal and courier services | 16,562.66 |
+| Education services | 14,551.63 |
+
+### 🔻 Bottom 10 Sectors by Technology Change
+
+| Sector | Technology Change |
+|--------|-------------------|
+| Audio-visual media, music publishing, broadcasting | -9,084.59 |
+| Services related to financial and insurance services | -9,478.46 |
+| Real estate services | -9,910.82 |
+| Scientific research and development services | -10,984.42 |
+| Printing services, recorded sound, image, data carriers | -12,326.20 |
+| Other personal service activities | -12,919.35 |
+| Publishing services | -17,206.54 |
+| Travel agency, tour operator, and other reservation services | -37,211.31 |
+| Motor vehicles, trailers, and semi-trailers | -37,233.93 |
+| Financial services | -41,962.22 |
+
+> ℹ️ These values reflect the net change in technology adoption or impact across sectors, potentially influenced by digitization, automation, and innovation intensity.
+![Decomposition of Output Change](technology_changes_by_sectors_sorting.png)
+
