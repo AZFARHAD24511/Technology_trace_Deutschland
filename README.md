@@ -1,6 +1,96 @@
 
 # Extracting & Decomposing Germany’s Input–Output Tables: Technology vs Final Demand
 
+## Structural Decomposition
+
+The Structural Decomposition (SD) method was developed over time, starting with Carter (1970), and extended by Blair and Wyckoff (1989), Skolka (1989), Rose and Casler (1996), and Miller and Blair (2009).
+This method allows us to decompose changes in input-output relationships between two time points — for example, $t = 1380$ and $t = 1400$ — into contributions from different sources of change.
+
+The central equation of the input-output model is:
+
+$$
+\mathbf{x} = (\mathbf{I} - \mathbf{A})^{-1} \mathbf{y}
+$$
+
+For two time periods:
+
+$$
+\mathbf{x}^t = (\mathbf{I} - \mathbf{A}^t)^{-1} \mathbf{y}^t = \mathbf{B}^t \mathbf{y}^t
+$$
+
+Let $t = 0$ be the base year and $t = 1$ the target year:
+
+$$
+\mathbf{x}^0 = \mathbf{B}^0 \mathbf{y}^0
+$$
+
+$$
+\Delta\mathbf{x} = \mathbf{x}^1 - \mathbf{x}^0 = \mathbf{B}^1 \mathbf{y}^1 - \mathbf{B}^0 \mathbf{y}^0
+$$
+
+Now define:
+
+$$
+\Delta \mathbf{B} = \mathbf{B}^1 - \mathbf{B}^0
+$$
+
+$$
+\Delta \mathbf{y} = \mathbf{y}^1 - \mathbf{y}^0
+$$
+
+### Type I Decomposition
+
+$$
+\Delta\mathbf{x} = \mathbf{B}^1 \Delta \mathbf{y} + \Delta \mathbf{B} \mathbf{y}^0
+$$
+
+Where:
+
+* $\mathbf{B}^1 \Delta \mathbf{y} = \mathbf{B}^1 \mathbf{y}^1 - \mathbf{B}^1 \mathbf{y}^0$
+* $\Delta \mathbf{B} \mathbf{y}^0 = \mathbf{B}^1 \mathbf{y}^0 - \mathbf{B}^0 \mathbf{y}^0$
+
+### Type II Decomposition
+
+Alternatively:
+
+$$
+\Delta\mathbf{x} = \Delta \mathbf{B} \mathbf{y}^1 + \mathbf{B}^0 \Delta \mathbf{y}
+$$
+
+Where:
+
+* $\Delta \mathbf{B} \mathbf{y}^1 = \mathbf{B}^1 \mathbf{y}^1 - \mathbf{B}^0 \mathbf{y}^1$
+* $\mathbf{B}^0 \Delta \mathbf{y} = \mathbf{B}^0 \mathbf{y}^1 - \mathbf{B}^0 \mathbf{y}^0$
+
+### Type III Decomposition
+
+Using year 0 values as weights:
+
+$$\Delta\mathbf{x}= \mathbf{B}^0\,\Delta \mathbf{y}+ \Delta \mathbf{B}\,\mathbf{y}^0+ \Delta \mathbf{B}\,\Delta \mathbf{y}$$
+
+### Type IV Decomposition
+
+Using year 1 values as weights:
+
+$$
+\Delta\mathbf{x}= \Delta \mathbf{B}\,\mathbf{y}^1 + \mathbf{B}^1\,\Delta \mathbf{y} - \Delta \mathbf{B}\,\Delta \mathbf{y}
+$$
+
+### Averaged (Combined) Decomposition
+
+As proposed by Dietzenbacher and Los (1998), a symmetric decomposition averages Types I and II:
+
+$$\Delta\mathbf{x}= \frac{1}{2} \Delta \mathbf{B} (\mathbf{y}^0 + \mathbf{y}^1)+ \frac{1}{2} (\mathbf{B}^0 + \mathbf{B}^1) \Delta \mathbf{y}$$
+
+This decomposition separates the total change in output into two parts:
+
+* One part due to technological change (based on $\Delta \mathbf{B}$)
+* Another part due to changes in final demand (based on $\Delta \mathbf{y}$)
+
+---
+
+
+
 This project provides a lightweight Python script to download, unzip and combine multiple revisions of Germany’s national **Input–Output Tables** from the official **GENESIS Online** database of the German Federal Statistical Office (Destatis).
 
 ## Data Source
